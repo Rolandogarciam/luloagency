@@ -1,0 +1,142 @@
+@font-face {
+    font-family: '8bit';
+    src: url('../font/8bit.ttf')  format('truetype');
+}
+
+* {
+    font: 100 1em '8bit';
+    box-sizing: content-box;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 2em;
+}
+
+header, footer, section {
+    padding: 10px;
+    display: flex;
+}
+
+.no-pad {
+    padding: 0px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #F2F2F2;
+}
+
+div.wrapper {
+    width: 80%;
+    height: auto;
+}
+
+header.main {
+    justify-content: space-between;
+    min-width: calc(100% - 20px);
+    height: auto;
+    background-color: #D2D2D2;
+}
+
+header.main {
+    font: 200 1em/1em ;
+    display: flex;
+    justify-content: space-between;
+    min-width: calc(100% - 20px);
+    height: auto;
+    background-color: #D2D2D2;
+}
+
+header.art {
+    font: 200 1em/1em ;
+    display: flex;
+    justify-content: space-between;
+    min-width: calc(100% - 20px);
+    height: auto;
+}
+
+div.logo {
+    display: flex;
+}
+
+.logo span {
+    display: inline;    
+}
+
+.lulo {
+    margin-top: -3px;
+    background-image: url(../img/lulo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+}
+
+nav.main {
+    padding-top: 10px;
+}
+
+nav.main > a {
+    padding: 10px;
+    background-color: #FFF;
+}
+
+div.line {
+    margin: auto;
+    height: 1px;
+    width: 30%;
+    background-color: #000;
+}
+
+div.logo {
+    font-size: 1.1em;
+    color: #FFF;
+    padding: 10px;
+    background-color: black;
+}
+
+section.main {
+    display: flex;
+    justify-content: space-between;
+    min-width: calc(100% - 20px);
+    height: auto;
+}
+
+section.media {
+    display: flex;
+    justify-content: center;
+    min-width: calc(100% - 20px);
+    height: auto;
+    background-color: #FFF;
+}
+
+section.media > img {
+    width: 300px;
+}
+
+section.art {
+    text-align: justify;
+}
+
+article.art {
+    width: 100%
+}
+
+footer.main {
+    height: auto;
+    widows: 100%;
+    background-color: #D2D2D2;    
+}
